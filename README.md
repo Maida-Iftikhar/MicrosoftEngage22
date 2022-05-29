@@ -17,7 +17,9 @@ The main dependencies used are:
 * Facial_recognition_models (Which is internally used by facial_recognition)
 * Dlib (Internally used by facial_recognition
 *For ipackaging the app *GUI based version of pyinstaller (Known as auto-py-to-exe) Or simply pyinstaller was used 
-![WhatsApp Image 2022-05-29 at 9 15 47 PM](https://user-images.githubusercontent.com/89723030/170878395-cfaab794-bb4e-4aac-bd5f-c2d812dc5fd6.jpeg)
+
+
+![WhatsApp Image 2022-05-29 at 9 15 47 PM](https://user-images.githubusercontent.com/89723030/170878441-9363ebbb-c120-462b-b260-1d5f739815a1.jpeg)
 
 
 * Instructions to run it:
