@@ -1,11 +1,16 @@
 # MicrosoftEngage22
 
 * Introduction⭐
-* This is a facial recognition based attendance system. It is majorly coded in Python, OpenCv. It works by recognising the faces and storing them into a .csv file. 
-* It allows the user to update a new entry and even clear the previous recorded attendance. The attendance is stored in a database to provid a virtual attendance register. Moreover, attendance statistics are available in the form of a pie chart. In the section of [view attendance] , the late attendance can easily be distinguished.
-The real time of attendance is recorded as well, making it an efficient alternataive for regular attendances in the schools , offices or other institues. 
+* This is a facial recognition based attendance system. It is majorly coded in Python, OpenCv. The framwework used is FastApi due to it's features like: auto documentation, auto completion, code suggestion and data validation.
+* The attendance system, captures real time faces from the web cam and stores the name of the student along with the accurate time of arrival into a .csv file.
+* The feature of late attendance is also implemented, wherein you as a teacher can see the entries of students who were late to the class ( and deduct their marks ;P )
+* Attendance statistics can be viewed in the form a pie chart.
+* An option to clear attendance has also been provided
+* However , to preserve the essence of the attendance register, I implemeted SQLite as a file based datbase to act as a virtual attendance register which stores all the history. 
+
 For this project,
 I have created a folder named ImagesAttendance which stores the data of the attendees. I have stored the images of Elon Musk, Jack Ma, Mark Zuckerberg, JK Rowling 
+
 The file named "Requirements.txt" contains all the tech used and their respective versions too.
 The main dependencies used are:
 * FastApi
